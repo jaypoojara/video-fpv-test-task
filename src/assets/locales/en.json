@@ -1,0 +1,8 @@
+{
+  "close_modal": {
+    "title": "Wait, don't go",
+    "subtitle": "if you quit now, you will lose your progress.",
+    "keep_learning": "Keep Learning",
+    "end_session": "End session"
+  }
+}
