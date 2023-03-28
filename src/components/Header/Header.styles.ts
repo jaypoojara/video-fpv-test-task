@@ -1,4 +1,5 @@
 import {StyleSheet} from 'react-native';
+import colors from '../../assets/colors';
 
 export const styles = StyleSheet.create({
   container: {
@@ -12,5 +13,21 @@ export const styles = StyleSheet.create({
     width: 15,
     resizeMode: 'contain',
   },
-  slider: {},
+  slider: {
+    flexDirection: 'row',
+    height: 5,
+    backgroundColor: 'red',
+    flex: 1,
+    marginHorizontal: 16,
+    borderRadius: 10,
+    overflow: 'hidden',
+  },
+  fillSlider: {
+    height: 5,
+    backgroundColor: colors.success,
+  },
+  remainingSlider: {
+    height: 5,
+    backgroundColor: colors.sliderDisabled,
+  },
 });

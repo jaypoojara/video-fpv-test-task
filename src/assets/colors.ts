@@ -4,4 +4,6 @@ export default {
   disabled: '#F3F3F3',
   white: '#FFFFFF',
   black: '#000000',
+  success: '#00FF00',
+  sliderDisabled: '#DDDDDD',
 };

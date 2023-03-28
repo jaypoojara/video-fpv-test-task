@@ -4,6 +4,7 @@ import {
   createNativeStackNavigator,
   NativeStackNavigationProp,
 } from '@react-navigation/native-stack';
+import Toast from 'react-native-toast-message';
 import {HomeScreen} from './src/screens/HomeScreen';
 import {ConversationScreen} from './src/screens/ConversationScreen';
 
@@ -23,6 +24,7 @@ export default function App() {
         <Stack.Screen name="Home" component={HomeScreen} />
         <Stack.Screen name="Conversation" component={ConversationScreen} />
       </Stack.Navigator>
+      <Toast />
     </NavigationContainer>
   );
 }

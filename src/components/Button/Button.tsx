@@ -8,9 +8,12 @@ export const Button = ({
   onPress,
   backgroundColor,
   color,
+  style,
 }: ButtonProps) => {
   return (
-    <Pressable onPress={onPress} style={[styles.button, {backgroundColor}]}>
+    <Pressable
+      onPress={onPress}
+      style={[styles.button, {backgroundColor}, style]}>
       <Text style={[styles.buttonTitle, {color}]}>{title}</Text>
     </Pressable>
   );
